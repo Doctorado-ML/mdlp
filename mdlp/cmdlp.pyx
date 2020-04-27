@@ -63,7 +63,7 @@ def MDLPDiscretize(col, y, int min_depth):
 
     output = np.array([num for num in cut_points])
     output = np.sort(output)
-    print output
+    #print output
     return output
 
 cdef unwrap(LEVEL level):
